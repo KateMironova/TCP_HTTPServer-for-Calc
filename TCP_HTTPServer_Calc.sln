@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPServer_Calc", "TCPServer_Calc\TCPServer_Calc.csproj", "{A419E9BC-D314-40F9-B10F-67A61042DD43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTTPServer_Calc", "HTTPServer_Calc\HTTPServer_Calc.csproj", "{5356D344-ED48-4E1A-9988-D92EF50EFB87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A419E9BC-D314-40F9-B10F-67A61042DD43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A419E9BC-D314-40F9-B10F-67A61042DD43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A419E9BC-D314-40F9-B10F-67A61042DD43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A419E9BC-D314-40F9-B10F-67A61042DD43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5356D344-ED48-4E1A-9988-D92EF50EFB87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5356D344-ED48-4E1A-9988-D92EF50EFB87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5356D344-ED48-4E1A-9988-D92EF50EFB87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5356D344-ED48-4E1A-9988-D92EF50EFB87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {443BBD6E-F018-4032-82DA-789F00FED9D2}
+	EndGlobalSection
+EndGlobal

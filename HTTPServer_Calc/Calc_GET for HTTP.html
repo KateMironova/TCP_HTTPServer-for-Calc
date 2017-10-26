@@ -1,0 +1,33 @@
+a<input type="text" id="A" ><p>
+b<input type="text" id="B" value=""><p>
+op<input type="text" id="Op" value=""><p>
+=<input type="text" id="Res" value=""><p>
+<input type="button" id="Btn" onclick="res()" value="Calculate"><p>
+
+<script>
+function res()
+{
+    try
+	{
+		var a = parseInt(document.getElementById("A").value);
+		var b = parseInt(document.getElementById("B").value);
+		var op = document.getElementById("Op").value;
+		var res = calcN(a, b, op);	
+		document.getElementById("Res").value = res;
+    }
+    catch (ArgumentOutOfRangeException)
+    {
+        Exception();
+    }
+}
+function calcN(a, b, op) 
+{
+	if(op == '+')
+		op = 'plus';
+	var req = "num1="+a+"&num2="+b+"&opr="+op;
+	var rr = new XMLHttpRequest();
+	rr.open('GET', 'http://localhost:8808?'+req, false);
+	rr.send(null);
+	return rr.responseText;
+}
+</script>
